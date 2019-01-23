@@ -18,6 +18,9 @@ lib/
 lib64/
 parts/
 sdist/
+Scripts/
+tcl/
+include/
 var/
 wheels/
 *.egg-info/
