@@ -20,10 +20,8 @@ fi
 
 load_pack(){
     echo "Fetching packages"
-    source bin/activate &
-    while read i; do
-        pip3 install $i;
-    done < packages.txt
+    source bin/activate
+    pip install -r packages.txt
 }
 
 setup_env(){
